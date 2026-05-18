@@ -89,5 +89,3 @@ The same applies to the two selves. Once you understand the peak-end rule, you c
 Cognitive restructuring works the same way. Through reading, thinking, observing, and repeated testing, System 2 examines System 1’s default patterns and gradually updates its model of the world.
 
 Anchoring and loss aversion won’t disappear. But when you practise broad framing repeatedly, it begins to become your default response. When you regularly catch anchoring effects, your sensitivity to anchors rises naturally. What System 2 does deliberately today becomes what System 1 does automatically tomorrow. This isn’t a one-time fix. It’s an ongoing process — using slow thinking to refine fast reactions, one adjustment at a time.
-
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=5e18490e034d)

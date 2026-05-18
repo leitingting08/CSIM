@@ -97,5 +97,3 @@ The focus of thought can shift from _I_ to  _we_.
 We have always thought with the whole world. We just rarely notice.
 
 Beyond the brain — the body, the space, the people around us — all of it already is.
-
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=292e0e644201)

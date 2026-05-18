@@ -3,24 +3,29 @@ title: "The Path of Least Resistance"
 date: 2026-04-24
 source: medium
 canonical_url: https://medium.com/@leitingting08/the-path-of-least-resistance-9116f20f8697
-tags: ["personal-growth", "philosophy", "cognitive-science", "systems-thinking", "psychology"]
+tags:
+  [
+    "personal-growth",
+    "philosophy",
+    "cognitive-science",
+    "systems-thinking",
+    "psychology",
+  ]
 ---
 
-_Stop trying to solve the problem_
+Stop trying to solve the problem.
 
 ![](https://cdn-images-1.medium.com/max/1024/1*V2IlwtPCu2Xh9M84WBJLJQ.png)
 
->  _" O_nce a new basic structure is in place, the over-all thrust of your life-like the power of the river’s current-surges to form the results you truly want. And the direct path to those results becomes the path of least resistance _. " _— Robert Fritz
+> "Once a new basic structure is in place, the over-all thrust of your life-like the power of the river’s current-surges to form the results you truly want. And the direct path to those results becomes the path of least resistance. " — Robert Fritz
 
 Reading _The Path of Least Resistance_ gave me a name for something I’d been feeling for years but couldn’t quite articulate: every meaningful choice I’ve made in my life was, in its moment, the path of least resistance.
 
 The book is built on three insights:
 
-  1. You go through life taking the path of least resistance.
-  2. The underlying structure of your life determines the path of least resistance.
-  3. You can change the fundamental underlying structures of your life.
-
-
+1. You go through life taking the path of least resistance.
+2. The underlying structure of your life determines the path of least resistance.
+3. You can change the fundamental underlying structures of your life.
 
 These lead to what Fritz calls the core principle: **structure determines behavior**.
 
@@ -52,10 +57,8 @@ Changing structures looks more expensive than patching behaviors. It isn’t. On
 
 Structural tension has two components:
 
-  1. A vision of the result you want to create.
-  2. A clear understanding of your current reality.
-
-
+1. A vision of the result you want to create.
+2. A clear understanding of your current reality.
 
 When both anchors are sharp, a tension naturally forms between them. This tension is not an unpleasant feeling to be resolved. It’s the energy source of creation itself. Like a drawn rubber band, it wants to move toward resolution — and that pull is what carries you forward.
 
@@ -114,5 +117,3 @@ The real difference is in what structure you’re in — and how you use its str
 Over these past few years, I’ve stopped trying to discharge the tension and started using it. For me, changing soils means changing the structure so the tension can keep doing its work — instead of being neutralized by reaction or response, it quietly carries me where I actually want to go.
 
 I’m standing in front of new soil again. I don’t know what will grow this time. But I’ve gotten used to not knowing.
-
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=9116f20f8697)

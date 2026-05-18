@@ -102,6 +102,11 @@ def sync():
         elif hasattr(entry, "summary"):
             content_html = entry.summary
 
+        # Strip Medium tracking pixel
+        content_html = re.sub(
+            r'<img[^>]+medium\.com/_/stat[^>]*>', '', content_html
+        )
+
         md_body = html_to_markdown(content_html)
         tags = extract_tags(entry)
         frontmatter = build_frontmatter(entry, tags)
