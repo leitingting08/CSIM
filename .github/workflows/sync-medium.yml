@@ -1,0 +1,46 @@
+name: Sync Medium → GitHub
+
+on:
+  schedule:
+    # Runs every day at 08:00 UTC (16:00 Beijing / 09:00 Barcelona)
+    - cron: "0 8 * * *"
+  workflow_dispatch: # allow manual trigger from GitHub UI
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # needed to push commits
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install feedparser html2text
+
+      - name: Run sync script
+        run: python sync_medium.py
+
+      - name: Commit & push if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add writing/ .medium_sync_state
+
+          # Only commit when there are actual changes
+          if git diff --cached --quiet; then
+            echo "No new articles. Nothing to commit."
+          else
+            ARTICLE_COUNT=$(git diff --cached --name-only | grep "^writing/" | wc -l)
+            git commit -m "sync: add ${ARTICLE_COUNT} article(s) from Medium [$(date -u +%Y-%m-%d)]"
+            git push
+          fi
